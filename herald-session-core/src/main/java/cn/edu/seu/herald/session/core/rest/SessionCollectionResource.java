@@ -48,8 +48,8 @@ public class SessionCollectionResource extends ServerResource
         sessionFactory = new SessionFactory();
     }
 
-    @Post("xml:xml")
-    public Representation createNewSession(Representation nullRepr) {
+    @Post("xml")
+    public Representation createNewSession() {
         try {
             Session newSession = sessionFactory.newSession();
             sessionCacheAccess.storeSession(newSession);
