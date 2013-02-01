@@ -4,7 +4,7 @@
 ----------------
 **请求:**
 
-    POST /session
+    POST /sessions
 
 **响应：**
 （返回一个新创建的会话，使用xml来描述）
@@ -26,7 +26,7 @@
 ----------------
 **请求:**
 
-    GET /session/{uuid}
+    GET /sessions/{uuid}
     
 或者可以通过“一”中所获取到的session的xml表征，获取其uri节点下的值，通过GET谓词直接获取。
 
@@ -51,7 +51,7 @@
 ----------------
 **请求:**
 
-    POST /session/{uuid}
+    POST /sessions/{uuid}
     <session>
       <id>{uuid}</id>
       
@@ -75,7 +75,7 @@
 ----------------
 **请求:**
 
-    DELETE /session/{uuid}
+    DELETE /sessions/{uuid}
 
 **响应：**
 
