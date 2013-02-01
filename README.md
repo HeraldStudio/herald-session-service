@@ -12,7 +12,7 @@
     <?xml version="1.0"?>
     <session>
       <id>{一个全局唯一的统一标示符，UUID，字符串型}</id>
-      <uri>{表示该资源能通过GET方式获取到的地址，通常为一个url，如http://path/to/the/session/resource，详解“二”}</uri>
+      <uri>{表示该资源能通过GET方式获取到的地址，通常为一个url，如http://path/to/the/session/resource，详见“二”}</uri>
       <creationTime>{会话创建的时间，至January 1, 1970, 00:00:00 GMT的毫秒数，长整型}</creationTime>
       <lastAccessedTime>{上次访问的时间，同上，长整型}</lastAccessedTime>
       <properties>
