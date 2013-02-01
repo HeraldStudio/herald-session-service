@@ -96,6 +96,5 @@
 
 六、服务部署
 ------------
-会话服务部署于105服务器的8080端口上，部署路径为/sessionservice，访问权限为只允许本地服务(localhost)访问。
-实例：
-POST /sessions -> POST http://127.0.0.1:8080/sessionservice/sessions
+会话服务部署于105服务器的8080端口上，部署路径为/sessionservice，访问权限为只允许本地服务(localhost)访问。以下为实例：
+> POST /sessions -> POST http://127.0.0.1:8080/sessionservice/sessions
